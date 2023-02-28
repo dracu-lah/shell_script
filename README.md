@@ -1,4 +1,4 @@
-#Added few extras ;]
+# Added few extras ;]
 
 terminal commands
 
@@ -22,7 +22,7 @@ type : sar app_name
 
 
 
-#Description 
+# Description 
 
 If any of this did'nt work 
 
