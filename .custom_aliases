@@ -1,0 +1,27 @@
+#Alias starter
+alias welcome='echo "Welcome $USER."'
+
+#update and upgrade
+alias sup='sudo nala update && sudo nala upgrade -y'
+
+#access xampp GUI
+alias xampp='cd /opt/lampp && sudo ./manager-linux-x64.run && cd'
+
+#python
+alias python='python3'
+
+#install
+alias sai='sudo nala install'
+
+#remove
+alias sar='sudo nala remove'
+
+#add path for flutter
+
+export PATH="$PATH:/usr/share/flutter/bin"
+
+#add path for android studio
+export PATH=$PATH:$HOME/Android/Sdk/platform-tools 
+export PATH=$PATH:$HOME/Android/Sdk/cmdline-tools/latest/bin/ 
+export PATH=$PATH:$HOME/Android/Sdk/build-tools/32.1.0-rc1/ 
+export PATH=$PATH:$HOME/Android/Sdk/emulator/bin64/
