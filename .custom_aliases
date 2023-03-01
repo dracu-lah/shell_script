@@ -15,7 +15,3 @@ alias sai='sudo nala install'
 
 #remove
 alias sar='sudo nala remove'
-
-#add path for flutter
-
-export PATH="$PATH:/usr/share/flutter/bin
